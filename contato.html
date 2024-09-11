@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Moody IceCream</title>
+    <link rel="stylesheet" href="sorvete.css">
+    <link rel="icon" type="image/x-icon" href="logoin.png">
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+    <header>
+        <div class="caixa">
+            <h1> <img src="png/logoin.png" alt="Logo Moody IceCream" /> </h1>
+            <nav>
+                <ul>
+                    <li> <a href="index.html"> HOME</a> </li>
+                    <li> <a href="produtos.html"> PRODUTOS</a> </li>
+                    <li> <a href="contato.html"> CONTATO</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form action="https://api.staticforms.xyz/submit" method="post" class="card">
+            <input type="hidden" name="accessKey" value="d6a94bae-b3c6-481b-905e-9123d233128a">
+
+            <label for="nomeSobrenome">Nome e Sobrenome:</label>
+            <input type="text" id="nomeSobrenome" name="name" class="input-padrao">
+
+            <label for="email">E-mail:</label>
+            <input type="text" id="email" name="email" class="input-padrao">
+
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="telefone" name="phone" class="input-padrao">
+
+            <label for="mensagem">Mensagem </label>
+            <textarea cols="70" rows="10" name="message"></textarea>
+            <fieldset>
+                <legend>Como gostaria de receber nosso Contato?</legend>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio=email" checked />
+                    Email</label>
+
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone" />
+                    Telefone</label>
+
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" />
+                    Whatsapp</label>
+            </fieldset>
+            <fieldset>
+                <legend>Qual horario prefere ser atendido?</legend>
+                <br>
+                <select>
+                    <option>Manhã</option>
+
+                    <option>Tarde</option>
+
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+            <label><input class="checkbox" type="checkbox" checked> Gostaria de receber novidades da nossa empresa por
+                e-mail?</label>
+            <div class="enviar">
+                <input type="submit" value="ENVIAR">
+            </div>
+        </form>
+        <div class="funcionamento">
+            <p class="funci">Nosso horário de funcionamento:</p>
+            <table>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horário</th>
+                </tr>
+                <tr>
+                    <td>Segunda</td>
+                    <td>Fechado</td>
+                </tr>
+                <tr>
+                    <td>Terça a Quinta</td>
+                    <td>12h às 18h</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>10h às 18h</td>
+                </tr>
+                <tr>
+                    <td>Finais de Semana e Feriados</td>
+                    <td>9h às 20h</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <img src="png/logoin.png" alt="Logo Moody IceCream">
+        <p>&copy; Copyright Ana e Enzo - 2022</p>
+    </footer>
+</body>
+
+</html>

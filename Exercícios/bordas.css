@@ -1,0 +1,11 @@
+.borda1{
+    border: solid 2px;
+}
+
+.borda2{
+    border: dotted 2px;
+}
+
+.borda3{
+    border: dashed 2px;
+}
